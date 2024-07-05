@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="boxHead">Currency Converter</div>
+    <div class="box">
+        <!-- <div class="amountBox">
+            <span>Enter amount to convert</span>
+            <input type="number" id="amount" placeholder="enter amount">
+        </div> -->
+        <div class="selectionBox">
+               <div class="container">
+                <span>From</span>
+                <input type="number" class="amountBox" placeholder="enter amount" id="amount">
+                <select name="Currency" id="fromc" class="currencyBox">
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="AUD">AUD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="NZD">NZD</option>
+                    <option value="CAD">CAD</option>
+                    <!-- <option value="CHF">CHF</option> -->
+                    <option value="SGD">SGD</option>
+                    <!-- <option value="HKD">HKD</option> -->
+                    <option value="BDT">BDT</option>
+                    <option value="NPR">NPR</option>
+                    <option value="PKR">PKR</option>
+                </select>
+               </div>
+               <div class="convertIcon">
+    
+               </div>
+                <div class="container">
+                    <span>To</span>
+                    <div class="amountBox" id="convertedAmount">0.0</div>
+                    <select name="Currency2" id="toc" class="currencyBox">
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
+                        <option value="AUD">AUD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="JPY">JPY</option>
+                        <option value="NZD">NZD</option>
+                        <option value="CAD">CAD</option>
+                        <!-- <option value="CHF">CHF</option> -->
+                        <option value="SGD">SGD</option>
+                        <!-- <option value="HKD">HKD</option> -->
+                        <option value="BDT">BDT</option>
+                        <option value="NPR">NPR</option>
+                        <option value="PKR">PKR</option>
+                    </select>
+                </div>
+                
+        </div>
+        <button class="btn"><span>Convert</span></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
